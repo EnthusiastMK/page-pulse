@@ -19,4 +19,4 @@ $(document).ready(function(){
             }]
     });
 });
-// Owl-Carousel, Tiny Slider, Slick Slider
+// Owl-Carousel, Tiny Slider, Slick Slider, Bootstrap Carousel
