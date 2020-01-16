@@ -47,6 +47,7 @@
         overflow: hidden
         margin-bottom: 22px
         &__wrapper
+            position: relative
             width: calc(200% + 48px)
             display: flex
         &__content
@@ -62,14 +63,15 @@
             width: 50%
             margin-left: 24px
             transform: translateX(0%)
-            padding-right: 20px
             transition: 0.5s all
-            padding-left: 19px
-            margin-bottom: 0
-            list-style-type: none
             &_active
                 transform: translateX(-100%)
                 margin-left: 0px
+            ul 
+                padding-left: 19px
+                padding-right: 20px
+                margin-bottom: 0
+                list-style-type: none
             li 
                 position: relative
                 color: #555555
