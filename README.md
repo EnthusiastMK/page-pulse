@@ -1,2 +1,2 @@
 # page-pulse
-<h1>HOMEWORK #3</h1>
+<h2>HOMEWORK #3</h2>
