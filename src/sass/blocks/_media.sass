@@ -1,0 +1,111 @@
+// @(max-width: 1200px)
+//  (max-width: 991px)
+// (max-width: 767px)
+// (max-width: 575px) 
+
+@media (max-width: 767px)
+    .header
+        flex-wrap: wrap
+        justify-content: space-around
+        &__official
+            display: none
+    .promo    
+        &__wrapper
+            align-items: center
+    .advantages
+        padding: 30px 0
+        &__wrapper
+            flex-wrap: wrap
+            justify-content: space-around
+            margin-top: 30px
+        &__block
+            margin-top: 20px
+    .title
+        &_submit
+            text-align: center
+            font-size: 32px
+    .consultation
+        min-height: 600px
+        padding: 50px 0
+        &__descr
+            text-align: center
+            margin-top: 50px
+    form
+        margin: 0 auto
+    .carousel
+        padding: 20px 0
+    .feedback
+        padding-bottom: 10px
+        hr 
+            margin: 15px 5px
+        &__text
+            margin-left: 0
+            padding-right: 0
+        &__block
+            justify-content: center
+            flex-direction: column
+        &__subtitle
+            margin-top: 10px
+            text-align: center
+        &__count
+            text-align: center
+        &__descr
+            text-align: center
+@media (max-width: 575px)
+    .promo
+        padding-bottm: 50px
+        min-height: 550px
+        &__wrapper
+            margin-top: 30px
+        &__header
+            font-size: 36px
+            line-height: 36px
+            text-align: center
+        &__subheader
+            font-size: 20px
+            line-height: 20px
+            text-align: center
+        &__icons
+            margin-top: 36px
+    .catalog
+        padding-bottom: 10px
+        .container
+            padding: 0
+    .feedback
+        &__block
+            &:nth-child(2)
+                margin-top: 40px
+    .footer
+        iframe
+            height: 450px
+    .overlay
+        .modal 
+            width: auto
+            max-width: 380px
+            &_mini
+                padding: 38px 20px 20px 20px
+            &__close
+                position: absolute
+                top: 10px
+                right: 10px
+@media (max-width: 480px)
+    .header
+        flex-direction: column
+        &__logo
+            margin-bottom: 20px
+    .promo
+        padding-bottom: 30px
+        &__icons
+            width: 100%
+            flex-wrap: wrap
+        &__icon
+            width: 30%
+    .advantages
+        &__block
+            a
+                display: block
+    .footer
+        &__info
+            position: relative
+            width: 100%
+            padding: 30px 0

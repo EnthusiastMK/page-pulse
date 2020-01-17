@@ -4,9 +4,11 @@
         margin-top: 69px
         margin-bottom: 0
         padding-left: 0
+        padding: 0 10px
         display: flex
         justify-content: center
         list-style-type: none
+        flex-wrap: wrap
     &__tab
         width: 220px
         height: 50px
@@ -18,7 +20,7 @@
         text-transform: uppercase
         text-align: center
         cursor: pointer
-        margin: 0 5px
+        margin: 5px
         transform: skewX(-25deg)
         transition: 0.5s all
         div
@@ -35,7 +37,7 @@
     &__content
         margin-top: 59px
         display: none
-        justify-content: space-between
+        justify-content: space-around
         flex-wrap: wrap
         &_active
             display: flex
@@ -45,6 +47,7 @@
         border: 2px solid #e8e8e8
         padding: 20px 20px 25px 20px
         overflow: hidden
+        margin: 0 8px
         margin-bottom: 22px
         &__wrapper
             position: relative

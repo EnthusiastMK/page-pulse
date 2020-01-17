@@ -2,17 +2,13 @@
     min-height: 470px
     background-color: #f6f6f6
     padding: 69px 0 81px 0
-    &__header
-        color: #0d0d0d
-        font-size: 30px
-        font-weight: 700
-        text-align: center
     &__wrapper
         margin-top: 65px
         display: flex
         justify-content: space-between
     &__block
         width: 247px
+        margin: 0 10px
     &__icon
         display: block
         margin: 0 auto
@@ -32,6 +28,11 @@
             color: #ff0000
             font-weight: 500
             text-decoration: underline
+            transition: 0.5s all
+            &:hover
+                color: $main-color
+                font-weight: 700
+                font-size: 16px
     &__icon
         &_animated
             animation: heartbeat 1.5s ease infinite
