@@ -34,7 +34,12 @@
                 font-weight: 700
                 font-size: 16px
     &__icon
+        &:hover
+            animation-play-state: paused
         &_animated
-            animation: heartbeat 1.5s ease infinite
-            &:hover
-                animation-play-state: paused
+            &_shoe
+                animation: shoe 1.5s ease infinite
+            &_cup
+                animation: cup 1.5s ease infinite
+            &_heart
+                animation: heartbeat 1.5s ease infinite
